@@ -13,8 +13,8 @@
 
         <nav class="main_nav">
             <ul>
-                <li class="._episode">Długość odcinka</li>
-                <li class="._azimuth">Azymut</li>
+                <li class="_episode">Długość odcinka</li>
+                <li class="_azimuth">Azymut</li>
             </ul>
         </nav>
         <div class="main_container">
@@ -23,6 +23,40 @@
                     Wybierz rodzaj obliczeń
                 </p>
             </div>
+            <div class="length_part">
+                <h2>Długość odcinka</h2>
+                <div class="calculations">
+                    <div class="calculations_first_point">
+                        <p class="first_point"> Podaj współrzędne punktu A</p>
+                        <form>
+                            <label>Współrzędna X:</label>
+                            <input type="text" name="number1" placeholder="Xp"></input>
+                            <label>Współrzędna Y:</label>
+                            <input type="text" name="number2" placeholder="Yp"></input>
+                        </form>
+                    </div>
+                    <div class="calculations_last_point"> 
+                        <p class="last_point"> Podaj współrzędne punktu B</p>
+                        <form>
+                            <label>Współrzędna X:</label>
+                            <input type="text" name="number3" placeholder="Xk"></input>
+                            <label>Współrzędna Y:</label>
+                            <input type="text" name="number4" placeholder="Yk"></input>
+                        </form>
+                        <button type="button" onclick="length()">
+                            Oblicz
+                        </button>
+                    </div>
+                    <div class="total_length">
+                        <p class="total_length_p"> Długość odcinka</p>
+                        <form>
+                            <input type="text"></input> 
+                            <span>[m]</span>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="azimuth_part">bb</div>
         </div>
     </section>
     <script src="./assets/javascript/jquery-3.2.1.min.js"></script>
