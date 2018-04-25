@@ -90,6 +90,11 @@ body {
     left: 2vw;
 }
 
+.calculations form input {
+    border: 1px solid black;
+    width: 20%;
+}
+
 .calculations_last_point,
 .total_length {
     margin-top: 30px;
@@ -101,11 +106,32 @@ body {
     text-decoration: underline;
 }
 
+.total_length {
+    display: flex;
+    width: 40%;
+}
+
+.length_calculate {
+    margin-top: 13px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.unity {
+    margin-top: 16px;
+    margin-left: 10px;
+}
+
 .calculations_last_point button {
-    left: 79%;
+    left: 65%;
     margin-top: 12px;
     position: relative;
     display: block;
+    border: 1px solid black;
+    background-color: lightgrey;
+    color: black;
+    font-weight: 600;
 }
 
 

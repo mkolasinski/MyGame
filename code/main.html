@@ -37,22 +37,20 @@
                     </div>
                     <div class="calculations_last_point"> 
                         <p class="last_point"> Podaj współrzędne punktu B</p>
-                        <form>
+                        <form name="calculator">
                             <label>Współrzędna X:</label>
                             <input type="text" name="number3" placeholder="Xk"></input>
                             <label>Współrzędna Y:</label>
                             <input type="text" name="number4" placeholder="Yk"></input>
                         </form>
-                        <button type="button" onclick="length()">
+                        <button class="button-to-calculate" type="button">
                             Oblicz
                         </button>
                     </div>
                     <div class="total_length">
-                        <p class="total_length_p"> Długość odcinka</p>
-                        <form>
-                            <input type="text"></input> 
-                            <span>[m]</span>
-                        </form>
+                        <p class="total_length_p"></p>
+                        <span class="length_calculate"></span>
+                        <span class="unity"></span>
                     </div>
                 </div>
             </div>
