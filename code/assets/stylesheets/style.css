@@ -72,7 +72,8 @@ body {
     display: none;
 }
 
-.length_part h2 {
+.length_part h2,
+.azimuth_part h2 {
     margin: 0 auto;
     position: relative;
     top: 5vh;
@@ -111,7 +112,8 @@ body {
     width: 40%;
 }
 
-.length_calculate {
+.length_calculate,
+.azimuth_calculate {
     margin-top: 13px;
     margin-left: 20px;
     font-size: 18px;
@@ -133,5 +135,20 @@ body {
     color: black;
     font-weight: 600;
 }
+
+.total_azimuth {
+    display: flex;
+    width: 40%;
+}
+
+.azimuth_info {
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    width: 30%;
+    margin-top: 40px;
+}
+
 
 

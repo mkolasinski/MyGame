@@ -43,7 +43,7 @@
                             <label>Współrzędna Y:</label>
                             <input type="text" name="number4" placeholder="Yk"></input>
                         </form>
-                        <button class="button-to-calculate" type="button">
+                        <button class="button-to-calculate-length" type="button">
                             Oblicz
                         </button>
                     </div>
@@ -54,7 +54,38 @@
                     </div>
                 </div>
             </div>
-            <div class="azimuth_part">bb</div>
+            <div class="azimuth_part">
+                <h2>Azymut</h2>
+                <div class="calculations">
+                    <div class="calculations_first_point">
+                        <p class="first_point"> Podaj współrzędne punktu A</p>
+                        <form>
+                            <label>Współrzędna X:</label>
+                            <input type="text" name="number5" placeholder="Xp"></input>
+                            <label>Współrzędna Y:</label>
+                            <input type="text" name="number6" placeholder="Yp"></input>
+                        </form>
+                    </div>
+                    <div class="calculations_last_point"> 
+                        <p class="last_point"> Podaj współrzędne punktu B</p>
+                        <form name="calculator">
+                            <label>Współrzędna X:</label>
+                            <input type="text" name="number7" placeholder="Xk"></input>
+                            <label>Współrzędna Y:</label>
+                            <input type="text" name="number8" placeholder="Yk"></input>
+                        </form>
+                        <button class="button-to-calculate-azimuth" type="button">
+                            Oblicz
+                        </button>
+                    </div>
+                    <div class="total_azimuth">
+                        <p class="total_azimuth_p"></p>
+                        <span class="azimuth_calculate"></span>
+                        <span class="azimuth_info"></span>
+                        <span class="unity"></span>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <script src="./assets/javascript/jquery-3.2.1.min.js"></script>
